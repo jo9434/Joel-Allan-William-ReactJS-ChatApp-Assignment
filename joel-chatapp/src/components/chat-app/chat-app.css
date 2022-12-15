@@ -1,0 +1,501 @@
+.chatappinterface {
+    padding: 1.2rem;
+    border-radius: 0.22rem;
+}
+
+.chatmenuarea {
+    width: 4rem;
+    padding: 2rem;
+    /* border-top-right-radius: 0.68rem; */
+    border-bottom-right-radius: 0.68rem;
+}
+
+.menuicon1, .menuicon2 {
+    font-size: 1.48rem;
+    /* margin-left: 10rem; */
+    margin-left: -0.98rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    border-radius: 0.22rem;
+    padding: 0.4rem;
+}
+
+.menuicon2 { display: none; }
+
+.spinner-border {
+    display: none;
+    margin-left: 0.34rem;
+}
+
+.menuitem {
+    display: none;
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+    margin-left: 0.34rem;
+    margin-top: -0.2rem;
+}
+
+.submenulist {
+    text-transform: capitalize;
+    list-style: none;
+    margin-left: -3.2rem;
+    /* padding-left: 0.4rem; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.menulist {
+    display: flex;
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 0.42rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.2rem;
+    transition: all 0.48s ease-in-out;
+}
+
+.menulist:hover, .menuicon:hover {
+    box-shadow: var(--combox-shadow6);
+}
+
+.chatuserarea {
+    padding: 0.68rem 1.2rem;
+    margin-left: 10.88rem;
+    border-top-left-radius: 0.68rem;
+    border-bottom-left-radius: 0.68rem;
+}
+
+.user-icon {
+    width: 2.88rem;
+    height: 2.88rem;
+    padding: 0.62rem 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    background: var(--orgred);
+    color: var(--white);
+}
+
+.user-icon2 {
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0.51rem 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    background: var(--orgred);
+    color: var(--white);
+}
+
+.user-icon p {
+    padding: 0 0.68rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.user-icon2 p {
+    padding: 0 0.6rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.user-name, .user-name2, .user-role, .user-role2 {
+    text-transform: capitalize;
+}
+
+.user-name2 {
+    font-size: 0.88rem;
+    margin-top: 0.4rem;
+}
+
+.user-role {
+    opacity: 60%;
+    font-size: 0.8rem;
+    margin-top: -0.4rem;
+}
+
+.user-time {
+    opacity: 60%;
+    font-size: 0.68rem;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+.user-conv {
+    margin-top: 2.88rem;
+}
+
+.btnclose2 {
+    width: 2.4rem;
+    height: 1.4rem;
+    border: none;
+    cursor: pointer;
+    color: var(--red);
+    z-index: 100 !important;
+    margin-top: -0.4rem;
+    margin-bottom: 0.68rem;
+    margin-left: 17rem;
+    border-radius: 2rem;
+    font-size: 1.28rem;
+    background: transparent;
+    transition: all 0.48s ease-in-out;
+}
+
+.changeBtn2 {
+    color: var(--white);
+    box-shadow: var(--combox-shadow6);
+}
+
+.createconv {
+    width: 20rem;
+    height: 8.88rem;
+    padding: 0.8rem 0;
+    translate: 30% 160%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0.48rem;
+    background: none;
+    box-shadow: var(--combox-shadow6);
+    z-index: 100 !important;
+    color: white !important;
+}
+
+.colbar3 {
+    opacity: 100%;
+    margin-top: 0.2rem;
+}
+
+.conv-form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.conv-input {
+    width: 16.88rem;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-top: 0.68rem;
+    color: var(--white);
+    margin-bottom: 0.68rem;
+    border-radius: 0.28rem;
+    background: transparent;
+}
+
+.conv-input:focus {
+    box-shadow: var(--combox-shadow6) inset;
+}
+
+::placeholder {
+    color: var(--white);
+}
+
+.btnsubmit {
+    border: none;
+    width: 12rem;
+    cursor: pointer;
+    background: none;
+    margin-left: 3.8rem;
+    color: var(--white);
+    border-radius: 0.28rem;
+}
+
+.btnsubmit:hover {
+    box-shadow: var(--combox-shadow6);
+}
+
+.convlist {
+    list-style: none;
+    padding: 0;
+    margin-left: -1.2rem;
+    width: 14.99rem;
+    cursor: pointer;
+}
+
+.conv-icon {
+    width: 2.6rem;
+    height: 2.6rem;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0.74rem 0;
+    border-radius: 0.4rem;
+    background: var(--skyblue3);
+    /* border: 0.1rem solid var(--black); */
+}
+
+.conv-title {
+    margin-left: 0.6rem;
+    padding-top: 0.34rem;
+    text-transform: capitalize;
+}
+
+.convlist li {
+    height: 3rem;
+    text-align: center;
+    align-items: center;
+    padding-left: 1.2rem;
+    padding-top: 0.98rem;
+}
+
+.convlist li:hover {
+    background: var(--mixlight);
+}
+
+.activegroup {
+    /* margin-left: -0.2rem; */
+    border-top-left-radius: 0.18rem;
+    border-bottom-left-radius: 0.18rem;
+    border-left: 0.2rem solid orangered;
+    transition: all 0.48s ease-in-out;
+}
+
+.activegroup .conv-icon {
+    margin-left: -0.2rem;
+}
+
+.convlist li:hover .conv-title {
+    color: var(--white);
+}
+
+.chatdisparea {
+    border-top-right-radius: 0.68rem;
+    border-bottom-right-radius: 0.68rem;
+}
+
+.convsection {
+    padding: 1.2rem;
+    /* border: 0.1rem solid var(--black); */
+    z-index: 100;
+}
+
+.messagebar {
+    height: 22.88rem;
+    /* bottom: -10.88rem; */
+    left: 0;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+.messagebar::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.8rem;
+}
+
+.messagebar::-webkit-scrollbar-track {
+    border: 0.25em solid var(--white);
+    background: var(--orgred);
+    border-radius: 0.8rem;
+    margin: 0.5em;
+}
+
+.messagebar::-webkit-scrollbar-thumb { border-radius: 0.8rem; background-color: var(--skyblue1); }
+/* Custom Scrollbar */
+
+.user-message {
+    width: 38rem;
+    height: 3.4rem;
+    font-size: 0.88rem;
+    margin-top: -0.68rem;
+    margin-left: 3.1rem;
+    padding: 0.48rem 1.2rem;
+    background: var(--white);
+    border-top-right-radius: 0.68rem;
+    border-bottom-left-radius: 0.68rem;
+    border-bottom-right-radius: 0.68rem;
+}
+
+.current-uicon {
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0.51rem 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    background: var(--orgred);
+    color: var(--white);
+    margin-right: 0.42rem;
+}
+
+.current-uicon p {
+    padding: 0 0.68rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.current-uname {
+    font-size: 0.88rem;
+    margin-top: 0.4rem;
+    margin-right: 0.4rem;
+    text-transform: capitalize;
+}
+
+.current-utime {
+    opacity: 60%;
+    font-size: 0.68rem;
+    margin-right: 0.4rem;
+    margin-top: 0.44rem;
+}
+
+.current-umessage {
+    width: 38rem;
+    height: 3.4rem;
+    font-size: 0.88rem;
+    margin-top: -0.68rem;
+    margin-left: 3.58rem;
+    padding: 0.48rem 1.2rem;
+    background: var(--white);
+    text-align: left;
+    justify-content: right;
+    border-radius: 0.68rem 0 0.68rem 0.68rem;
+    /* border-top-right-radius: 0.68rem;
+    border-bottom-left-radius: 0.68rem;
+    border-bottom-right-radius: 0.68rem; */
+}
+
+.system-message {
+    width: 38rem;
+    height: 3.4rem;
+    font-size: 0.88rem;
+    margin-top: -0.68rem;
+    margin-left: 3.1rem;
+    padding: 0.48rem 1.2rem;
+    background: var(--white);
+    border-top-right-radius: 0.68rem;
+    border-bottom-left-radius: 0.68rem;
+    border-bottom-right-radius: 0.68rem;
+}
+
+.iconhand {
+    color: var(--emoji);
+    animation: sayhi 2s ease-in-out infinite alternate;
+}
+
+.messagebar .message-input {
+    position: fixed;
+    bottom: 2.4rem;
+    /* margin: 10rem 0; */
+}
+
+.message-input {
+    width: 44.88rem;
+    border: none;
+    outline: none;
+    padding: 0.2rem 0.48rem;
+    text-align: left;
+    margin-left: 0rem;
+    margin-top: -0.68rem;
+    color: var(--white);
+    margin-bottom: 0.68rem;
+    border-radius: 0.28rem;
+    background: transparent;
+    animation: inputbreathe 8.88s ease-in-out infinite alternate-reverse;
+}
+
+.message-input:focus {
+    box-shadow: var(--combox-shadow6);
+    animation: none;
+}
+
+.emojimenuicon1 {
+    position: absolute;
+    margin-left: 42.88rem;
+    margin-top: -2.2rem;
+    /* margin-left: -1.48rem;
+    margin-top: 0.24rem; */
+    cursor: pointer;
+    z-index: 100 !important;
+}
+
+.emojimenuicon2 {
+    display: none;
+    position: relative;
+    margin-left: 42.88rem;
+    margin-top: -2.2rem;
+    /* margin-left: -1.48rem;
+    margin-top: 0.24rem; */
+    cursor: pointer;
+    z-index: 100 !important;
+}
+
+.emojimenulist {
+    display: none;
+    position: relative;
+    width: 6rem;
+    height: 6.88rem;
+    padding: 0.4rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-left: 37.78rem;
+    margin-top: -8.74rem;
+    border-radius: 0.42rem;
+    z-index: 100 !important;
+    transition: all 2.4s ease-in-out;
+    box-shadow: var(--combox-shadow6);
+}
+
+.iconemojis {
+    height: 1.16rem;
+    width: 1.16rem;
+    border-radius: 2rem;
+    color: var(--emoji);
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0 0.2rem;
+    z-index: 100;
+    cursor: pointer;
+    background: var(--black);
+    z-index: 100 !important;
+}
+
+/* .emojimenuicon:active + .emojimenulist {
+    display: block;
+    transition: all 2.4s ease-in-out;
+} */
+
+/* Custom Scrollbar */
+.emojimenulist::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.8rem;
+}
+
+.emojimenulist::-webkit-scrollbar-track {
+    border: 0.25em solid var(--white);
+    background: var(--orgred);
+    border-radius: 0.8rem;
+    margin: 0 0.5em !important;
+}
+
+.emojimenulist::-webkit-scrollbar-thumb { border-radius: 0.8rem; background-color: var(--skyblue1); }
+/* Custom Scrollbar */
+
+.convsection:nth-child(2), .convsection:nth-child(3) {
+    display: none;
+}
+
+.iconLike {
+    position: absolute;
+    cursor: pointer;
+    color: var(--emoji);
+    margin-left: 42rem;
+    margin-top: -3.2rem !important;
+}
+
+.iconbadge {
+    z-index: 100;
+    position: absolute;
+    font-size: 0.48rem;
+    color: var(--black);
+    /* margin-top: 0.28rem;
+    margin-left: -0.34rem; */
+    margin-top: -0.18rem;
+    margin-left: 0.2rem;
+    border-radius: 2.88rem;
+    padding: 0.26rem 0.34rem;
+    background: var(--skyblue1);
+    /* border: 0.2rem solid var(--skyblue2); */
+}
